@@ -129,7 +129,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 REDIS_HOST = 'localhost'
 REDIS_PORT = 6379
 
-CELERY_BROKER_URL = 'redis://127.0.0.6379/0'
+CELERY_BROKER_URL = 'redis://127.0.0.6379'
 ACCEPT_CONTENT = ['application/json']
 RESULT_SERIALIZER = 'json'
 TASK_SERIALIZER = 'json'
